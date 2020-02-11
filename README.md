@@ -10,29 +10,30 @@ Jupyter Notebookはどちらも出力と共に保存されています。
 
 - dazai_text_generation.ipynb
 
-    太宰治の小説群を入力としたモデルの学習と学習後のモデルを使った文章生成までを行うJupyter Notebookです。
+   - 太宰治の小説群を入力としたモデルの学習と学習後のモデルを使った文章生成までを行うJupyter Notebookです。
 
 - pretrained_dazai_text_generation.ipynb
 
-    すでに学習済みのモデルの重みを読み込んで文章生成のみを行うJupyter Notebookです。
+   - すでに学習済みのモデルの重みを読み込んで文章生成のみを行うJupyter Notebookです。
+<br>
 
 学習や文章生成に使うファイルはdataフォルダにまとめています。
 
 - data/emb_layer_50k.npy
 
-    日本語単語ベクトルchiVeから作成した5万語の単語ベクトルをnumpy形式で保存したものです。
+    - 日本語単語ベクトルchiVeから作成した5万語の単語ベクトルをnumpy形式で保存したものです。
 
 - data/word2id_50k.pkl
 
-    上記の単語ベクトルをもとに作成した単語と単語IDを変換する辞書をpickleによって保存したものです。
+    - 上記の単語ベクトルをもとに作成した単語と単語IDを変換する辞書をpickleによって保存したものです。
 
 - data/corpus/*.npy
 
-    太宰治の小説を形態素解析器Sudachiで分かち書きし、単語IDの配列にしてnumpy形式で保存したものです。
+    - 太宰治の小説を形態素解析器Sudachiで分かち書きし、単語IDの配列にしてnumpy形式で保存したものです。
 
 - data/model/weight_emb_tied.pth
 
-    学習済みのモデルの重みを保存したものです。
+    - 学習済みのモデルの重みを保存したものです。
 
 ## 使用したもの
 
