@@ -1,4 +1,4 @@
-# dazai_text_generation
+# dazai-text-generation
 
 太宰治の小説群によって学習させたLSTMによる文章生成モデルです。
 ブログにて開発したものをJupyter Notebook形式でまとめました。
