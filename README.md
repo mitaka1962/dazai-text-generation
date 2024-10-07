@@ -3,6 +3,7 @@
 太宰治の小説群によって学習させたLSTMによる文章生成モデルです。
 ブログにて開発したものをJupyter Notebook形式でまとめました。
 使用言語はPython3で、機械学習ライブラリにPyTorchを使っています。
+Google Colaboratory上で実行可能です。
 
 ## 内容
 
